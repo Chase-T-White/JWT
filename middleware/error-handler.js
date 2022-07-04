@@ -7,4 +7,4 @@ const errorHandlerMiddleware = (err, req, res, next) => {
     return res.status(500).send('Something went wrong try again later');
 };
 
-module.export = errorHandlerMiddleware;
+module.exports = errorHandlerMiddleware;
